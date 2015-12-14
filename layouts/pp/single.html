@@ -40,6 +40,8 @@
     <h1>{{ .Title }}</h1>
     {{ .Content }}
   </div>
+  <hr>
+  <p>Check other articles at <a href="http://blog.infovizion.ru">InfoVizion blog</a></p>
 </div>
 
 {{ if isset .Site.Params "highlight" }}<script src="{{ "/js/highlight.pack.js" | absURL }}"></script>
