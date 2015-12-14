@@ -1,0 +1,20 @@
+baseurl: "http://blog.infovizion.ru/"
+languageCode: "en-us"
+title: "InfoVizion blog"
+theme: "hyde-x"
+disqusShortname: "infovizion"
+metaDataFormat: "yaml"
+paginate: 10
+author:
+  name: "InfoVizion blog"
+permalinks:
+  post: "/:year/:month/:title/"
+taxonomies:
+  category: "categories"
+params:
+  tagline: "BI technology related posts by Vadim Tsushko"
+  github: http://github.com/inqlik
+  home: "Home"
+  rss: true
+  googleAnalytics: "UA-70807544-1"
+  googleAuthorship: "https://plus.google.com/u/0/113265303168358032822"
