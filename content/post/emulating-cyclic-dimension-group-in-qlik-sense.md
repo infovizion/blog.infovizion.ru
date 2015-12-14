@@ -1,8 +1,9 @@
-+++
-title = "Emulating cyclic dimension group in Qlik Sense"
-date = "2014-06-01T22:17:19+05:00"
-categories = ["Qlik Sense"]
-+++
+---
+categories:
+- Qlik Sense
+date: 2014-06-01T22:17:19+05:00
+title: Emulating cyclic dimension group in Qlik Sense
+---
 
 Current version of Qlik Sense Desktop do not support cyclic dimension groups (drilldown groups are supported).  
 

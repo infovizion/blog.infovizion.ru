@@ -1,8 +1,9 @@
-+++
-title = "InfoVizion Expression Editor, part two"
-date = "2014-03-15T22:17:19+05:00"
-categories = ["QlikView"]
-+++
+---
+categories:
+- QlikView
+date: 2014-03-15T22:17:19+05:00
+title: InfoVizion Expression Editor, part two
+---
 
 After writing previous post I have [very interesting discussion][disc] with [Jason Michaelides][jason].
 

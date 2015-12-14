@@ -1,8 +1,9 @@
-+++
-title = "InfoVizion QVD Explorer"
-date = "2015-07-06T22:17:19+05:00"
-categories = ["QlikView"]
-+++
+---
+categories:
+- QlikView
+date: 2015-07-06T22:17:19+05:00
+title: InfoVizion QVD Explorer
+---
 
 *TL;DR:* Check out our [QvdExplorer](https://github.com/inqlik/QvdExplorer) - simple but powerful tool to explore data in your QVD files
 

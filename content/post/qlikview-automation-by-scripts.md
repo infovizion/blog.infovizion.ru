@@ -1,8 +1,9 @@
-+++
-title = "Sample of QlikView automation by external VBScript scripts"
-date = "2014-07-19T22:17:19+05:00"
-categories = ["QlikView"]
-+++
+---
+categories:
+- QlikView
+date: 2014-07-19T22:17:19+05:00
+title: Sample of QlikView automation by external VBScript scripts
+---
 
 You can do all sorts of administrative tasks with QlikView applications through Automation API.
 Export charts to excel or csv files, export variables from application, set sheet level security parameters before deploying application or warm your application on server by automatically opening some sheets and selecting some most popular values in listboxes.

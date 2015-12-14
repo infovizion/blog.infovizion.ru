@@ -1,9 +1,9 @@
-+++
-title = "Emulating document chaining in Qlik Sense"
-date = "2015-12-11T22:17:19+05:00"
-categories = ["Qlik Sense"]
-+++
-
+---
+categories:
+- Qlik Sense
+date: 2015-12-11T22:17:19+05:00
+title: Emulating document chaining in Qlik Sense
+---
 
 In QlikView document chaining is drilling down from one application to another automatically transferring selections.
 

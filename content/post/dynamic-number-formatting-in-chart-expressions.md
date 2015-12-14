@@ -1,8 +1,10 @@
-+++
-title = "Dynamic number formatting in chart expressions. Pros and cons"
-date = "2014-01-25T22:17:19+05:00"
-categories = ["Qlik Sense", "QlikView"]
-+++
+---
+categories:
+- Qlik Sense
+- QlikView
+date: 2014-01-25T22:17:19+05:00
+title: Dynamic number formatting in chart expressions. Pros and cons
+---
 
 First of all - a definition. QlikView charts properties dialog has a `Number` tab where we are setting formats for each expression manually. That I will name static number formatting in this post.
 

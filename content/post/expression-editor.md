@@ -1,8 +1,9 @@
-+++
-title="InfoVizion Expression Editor in QlikView Deployment Framework environment"
-date="2014-02-22T22:17:19+05:00"
-categories = ["QlikView"]
-+++
+---
+categories:
+- QlikView
+date: 2014-02-22T22:17:19+05:00
+title: InfoVizion Expression Editor in QlikView Deployment Framework environment
+---
 
 We've switched to QlikView Deployment Framework recently so adjusting our current toolset to new environment was a great opportunity to rethink some approaches and implement some properties in alternative way. In this post I'd like to present some background design considerations and current state of one of these tools - Expression Editor. 
 

@@ -1,8 +1,9 @@
-+++
-title = "Online tool to check syntax of QlikView expressions"
-date = "2014-10-18T22:17:19+05:00"
-categories = ["QlikView"]
-+++
+---
+categories:
+- QlikView
+date: 2014-10-18T22:17:19+05:00
+title: Online tool to check syntax of QlikView expressions
+---
 
 TL;DR: Check our [on-line parser for QlikView expressions](/live/build/web/parser.html)
 
