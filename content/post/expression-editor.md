@@ -124,7 +124,7 @@ Admittedly it was rather contrived example. In our projects only tiny amount of 
 
 Thus we have completed our demo project and seen basic usage of expression editor. Lets see some additional features
 
-####Additional structure and fast navigation 
+#### Additional structure and fast navigation 
 
 Names of expression in expression file marked as symbols. Additionally there is way group any logically related group of expressions in section within expression file. It provide opportunity to get some structure of expression file. See result go Goto Symbol (`Ctrl-R`) command.
 
@@ -136,7 +136,7 @@ On this tiny sample it is not important, but in real projects that is quite usef
 
 Another feature useful in real size project: Goto definition (`F12`) command. With it you could place cursor into any variable in expression (for example into `$(russianNotSelected)`) and immediately jump to line where that variable is defined in same file or other file of same project. Then you return to original spot by `Alt -` key combination.
 
-####Configurable settings
+#### Configurable settings
 
 By default Expression editor use ExpressionName.TagName naming convention. You can change it Package Settings. Your variables could look like Sales_Label if you set `separator` field to value '_'.
 I prefer dot as separator because QlikView works very nice with it. You double click on name part of expression and QlikView select only that part. Double click on Tag part of expression and QlikView select only Tag part. So you for example can copy fully populated chart expression, paste it and then easily change name parts of expression in all fields.
@@ -147,7 +147,7 @@ Another setting is `output_mode`. By default Expression editor produce CSV file 
 
 Consider this mode as experimental - we tentatively choose CSV output format as a default for our projects so it is currently more tested
 
-###Macros
+### Macros
 
 There is well known bug/feature in QlikView dollar sign macro expansion: you can not pass parameter containing comma in it. There is known workaround- for example [that][wa]. 
 Basically you change your commas to something else in input parameters and then you replace that something with commas in target expression. It's good solution for some cases, but 
@@ -198,7 +198,7 @@ So on code-generation phase plugin would emulate dollar sign substitution of exp
 We do not use this feature frequently but when we do - it is nice to have.
 
 
-###Using of demo project 
+### Using of demo project 
 
 You can [download][sd] and look at materials used in this post. Demo project is based on demo application `NorthWindExampleMart` from QlikView Deployment Framework. QDF file structure per se was not used in this tiny example, but essential function `LoadVariableCSV` was used.
 
