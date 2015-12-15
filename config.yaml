@@ -16,5 +16,6 @@ params:
   github: http://github.com/inqlik
   home: "Home"
   rss: true
+  highlight: "qlikview"
   googleAnalytics: "UA-70807544-1"
   googleAuthorship: "https://plus.google.com/u/0/113265303168358032822"

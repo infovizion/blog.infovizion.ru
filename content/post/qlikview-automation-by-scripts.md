@@ -18,7 +18,7 @@ In most cases I would code such a task not as a macro inside QlikView applicatio
 
 Several tips for using external VBScript scripts:
 
-####Macro to VBScript conversion
+#### Macro to VBScript conversion
 
 Most examples of QlikView automation on the net and all examples in APIGuide are for usage in macros. There is two simple steps for converting such samples into working VBscript:
 In QlikView macros global variable `ActiveDocument` is entry point to automation API, QlikView application object accessible as `ActiveDocument.GetApplication`
@@ -34,7 +34,7 @@ Note that you should use absolute path to QlikView document on `OpenDoc` paramet
 
 Then use `MyDoc` instead of global variable `ActiveDocument` and `MyApp` instead of `ActiveDocument.GetApplication`
 
-####Automating application on QlikView server
+#### Automating application on QlikView server
 
 For example that could be usefull to schedule warming up of your application after nightly reload.
 To automate application residing on the QlikView server you shoud use full path to your application on OpenDoc parameter. It could be something like:
@@ -45,7 +45,7 @@ Set MyDoc = MyApp.OpenDoc ("qvp://localhost/AppFolder/My application.qvw")
 
 For me it works only with ActiveDirectory authentication. Basically if you can open application in QlikView Desktop with `Use NT Identity` radiobutton selected and user/login dialog do not appear on opening - automation from VBScript should work too.
 
-####Code reuse
+#### Code reuse
 
 It could be useful to collect common utility functions and classes (yes, VBScript have a classes too!!!) in a some library and use it throughout many scripts. Unfortunately VBScrip lacks standard `import` directive.
 

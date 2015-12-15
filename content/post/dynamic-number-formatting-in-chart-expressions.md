@@ -12,7 +12,7 @@ Whole bunch of various controls together are helping user to set proper value to
 
 It's rather not obvious why that should be so, and apparently not only for me - because I found such [Idea][idea] 
 
-> ####Allow "Format Pattern" to use an expression
+> #### Allow "Format Pattern" to use an expression
 >In many places you can use expressions to dynamically control QlikView. This should also be one of them.Especially when it comes to enterprise deployments with employees in multiple countries/cultures collaborating in one QV application a dynamic display is needed.Please email me for a detailed problem description / documentation if needed.
 
 Which got answer from QlikTech engineer: 
