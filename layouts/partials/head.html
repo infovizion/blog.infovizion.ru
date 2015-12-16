@@ -33,26 +33,4 @@
   {{ with .Site.Params.googleAuthorship }}<link rel="author" href="http://plus.google.com/{{ . }}">{{ end }}
 </head>
 <body{{ with .Site.Params.theme }} class="{{ . }}"{{ end }}>
-
-
-<div class="content container">
-  <div class="post">
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
-  </div>
-  <hr>
-  <p>Check other articles at <a href="http://blog.infovizion.ru">InfoVizion blog</a></p>
-</div>
-
-{{ if isset .Site.Params "highlight" }}<script src="{{ "/js/highlight.pack.js" | absURL }}"></script>
-<script>hljs.initHighlightingOnLoad();</script>{{ end }}
-{{ with .Site.Params.googleAnalytics }}
-<script>
-  var _gaq=[['_setAccount','{{ . }}'],['_trackPageview']];
-  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-  s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
-{{ end }}
-</body>
-</html>
+{{ partial "sidebar.html" . }}

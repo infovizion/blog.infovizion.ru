@@ -6,7 +6,7 @@ disqusShortname: "infovizion"
 metaDataFormat: "yaml"
 paginate: 10
 author:
-  name: "InfoVizion blog"
+  name: "Vadim Tsushko"
 permalinks:
   post: "/:year/:month/:title/"
 taxonomies:
